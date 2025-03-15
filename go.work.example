@@ -1,0 +1,20 @@
+go 1.23
+
+use (
+	./examples/chain-info
+	./examples/flags
+	./examples/health-monitor
+	./examples/hello-world
+	./examples/hooks
+	./examples/spinner
+	./appregistry
+	./cca
+	./connect
+	./explorer
+	./fee-abstraction
+	./hermes
+	./rollkit
+	./spaceship
+	./wasm
+	./cs-client
+)
