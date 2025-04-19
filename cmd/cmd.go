@@ -8,8 +8,8 @@ func GetCommands() []*plugin.Command {
 	return []*plugin.Command{
 		{
 			Use:   "cs-client",
-			Short: "Generates csharp client",
-			Long:  "Generates csharp client",
+			Short: "Generates C# client",
+			Long:  "Generates a C# client library for your cosmos-sdk blockchain",
 			Flags: []*plugin.Flag{
 				{
 					Name:      "yes",
