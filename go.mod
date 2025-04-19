@@ -1,4 +1,4 @@
-module github.com/ignite/apps/cs-client
+module github.com/lxgr-linux/ignite-app-cs-client
 
 go 1.23.6
 

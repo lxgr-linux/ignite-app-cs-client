@@ -6,7 +6,6 @@ import (
 	"strings"
 
 	"github.com/DecentralCardGame/protoc-gen-cosmos-csharp/descriptor"
-	"github.com/ignite/apps/cs-client/customconfig"
 	"github.com/ignite/cli/v29/ignite/config"
 	chainconfig "github.com/ignite/cli/v29/ignite/config/chain"
 	"github.com/ignite/cli/v29/ignite/pkg/cache"
@@ -16,6 +15,7 @@ import (
 	"github.com/ignite/cli/v29/ignite/services/chain"
 	"github.com/ignite/cli/v29/ignite/services/plugin"
 	"github.com/ignite/cli/v29/ignite/version"
+	"github.com/lxgr-linux/ignite-app-cs-client/customconfig"
 )
 
 const (

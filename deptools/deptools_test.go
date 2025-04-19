@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/ignite/apps/cs-client/deptools"
+	"github.com/lxgr-linux/ignite-app-cs-client/deptools"
 	"github.com/stretchr/testify/assert"
 )
 

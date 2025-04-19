@@ -9,7 +9,7 @@ Generaetes a C# client library for your cosmos blockchain.
 To use the "cs-client" app within your project, execute the following command inside the project directory:
 
 ```bash
-ignite app install github.com/ignite/apps/cs-client
+ignite app install github.com/lxgr-linux/ignite-app-cs-client
 ```
 
 The app will be available only when running `ignite` inside the project directory.
@@ -19,7 +19,7 @@ The app will be available only when running `ignite` inside the project director
 To use the "cs-client" app globally, execute the following command:
 
 ```bash
-ignite app install -g github.com/ignite/apps/cs-client
+ignite app install -g github.com/lxgr-linux/ignite-app-cs-client
 ```
 
 This command will compile the app and make it immediately available to the `ignite` command lists.

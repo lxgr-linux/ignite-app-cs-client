@@ -4,7 +4,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/ignite/apps/cs-client/customconfig"
+	"github.com/lxgr-linux/ignite-app-cs-client/customconfig"
 	"github.com/stretchr/testify/assert"
 )
 

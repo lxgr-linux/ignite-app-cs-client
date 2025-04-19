@@ -10,11 +10,11 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/ignite/apps/cs-client/gen"
 	pluginsconfig "github.com/ignite/cli/v29/ignite/config/plugins"
 	"github.com/ignite/cli/v29/ignite/pkg/cmdrunner/step"
 	"github.com/ignite/cli/v29/ignite/services/plugin"
 	envtest "github.com/ignite/cli/v29/integration"
+	"github.com/lxgr-linux/ignite-app-cs-client/gen"
 	"github.com/stretchr/testify/require"
 )
 
@@ -32,7 +32,7 @@ func TestCsClient(t *testing.T) {
 
 	dir, err := os.Getwd()
 	require.NoError(err)
-	pluginPath := filepath.Join(filepath.Dir(filepath.Dir(dir)), "cs-client")
+	pluginPath := filepath.Join(filepath.Dir(filepath.Dir(dir)), "ignite-app-cs-client")
 
 	homeDir := app.UseRandomHomeDir()
 
