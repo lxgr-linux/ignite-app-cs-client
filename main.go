@@ -22,7 +22,7 @@ func (app) Manifest(context.Context) (*plugin.Manifest, error) {
 }
 
 func (app) Execute(ctx context.Context, cmd *plugin.ExecutedCommand, api plugin.ClientAPI) error {
-	session := cliui.New(cliui.StartSpinnerWithText("Testing spinner..."))
+	session := cliui.New()
 	defer session.End()
 
 	chainInfo, err := api.GetChainInfo(ctx)
@@ -34,11 +34,6 @@ func (app) Execute(ctx context.Context, cmd *plugin.ExecutedCommand, api plugin.
 	if err != nil {
 		return errors.Errorf("failed to init genrator: %s", err)
 	}
-
-	_ = g
-
-	//time.Sleep(time.Second * 5)
-	session.StopSpinner()
 
 	session.StartSpinner("Installing dependencies...")
 	err = deptools.ProvideTools(ctx, chainInfo.AppPath)
