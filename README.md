@@ -35,6 +35,8 @@ This command will compile the app and make it immediately available to the `igni
 ignite generate cs-client
 ```
 
+For a tutorial, take a look [here](Tutorial.md).
+
 ### Configuration
 ```
 Flags:
